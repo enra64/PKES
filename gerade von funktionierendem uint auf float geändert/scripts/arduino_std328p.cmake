@@ -1,0 +1,7 @@
+set(ARDUINO_PROTOCOL "arduino")
+set(ARDUINO_BOARD "standard")
+set(ARDUINO_MCU "atmega328p")
+set(ARDUINO_FCPU "16000000")
+set(ARDUINO_UPLOAD_SPEED "56700")
+set(ARDUINO_PORT "/dev/ttyUSB0")
+include(${CMAKE_SOURCE_DIR}/scripts/libarduino.cmake)
